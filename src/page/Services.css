@@ -1,0 +1,72 @@
+.services-container {
+  padding: 20px;
+  padding-top: 100px; 
+  font-family: 'Cairo', sans-serif;     
+  background: linear-gradient(135deg, #1a1a2e 0%, #1D186263 100%);
+}
+  
+  .custom-gradient-button {
+    background: linear-gradient(135deg, #0062E6 0%, #33AEFF 100%);
+    color: #fff;
+    border: none;
+    font-size: 1.1rem;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 8px 20px rgba(0, 98, 230, 0.2);
+    border-radius: 0 0 1.5rem 1.5rem; 
+  }
+  
+  .custom-gradient-button:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 12px 24px rgba(0, 98, 230, 0.35);
+    background: linear-gradient(135deg, #0050c2 0%, #1b9af7 100%);
+  }
+  
+  
+
+  .service-card:hover {
+    transform: translateY(-5px);
+  }
+  
+
+  
+  
+  
+  .btn-primary {
+    background-color: #3498db;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980b9;
+  }
+  
+  .carousel-container {
+    padding: 20px 0;
+  }
+  
+  .custom-dot-list-style {
+    margin-top: 20px;
+  }
+ button {
+    border: none;
+    background: #ddd;
+  }
+  
+  button {
+    background: #3498db;
+  }
+  
+
+  
+
+
+
+
+  
+
+  
+
