@@ -66,5 +66,6 @@ Main routes are defined in [App.jsx](file:///d:/Abdalla/New%20folder/New%20folde
 ESLint is configured in [eslint.config.js](file:///d:/Abdalla/New%20folder/New%20folder%20(2)/Waset/eslint.config.js). Run `npm run lint`.
 
 ## Notes
-- Do not commit API keys or secrets. Use environment variables and server-side APIs for sensitive operations.
-- Images and static assets live under `src/assets` and `src/service_imgs`.
+ - Do not commit API keys or secrets. Use environment variables and server-side APIs for sensitive operations.
+ - Images and static assets live under `src/assets` and `src/service_imgs`.
+ - (Implemented real-time user-to-user messaging system using Firebase Firestore.)
