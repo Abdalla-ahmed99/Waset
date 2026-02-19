@@ -21,7 +21,7 @@ import SigninDashboard from './Components/SigninDashboard';
 import { useDispatch, useSelector } from 'react-redux';
 import PrivateRoute from './PrivateDashboard';
 import { setCurrentUser } from './Redux/CurrentUser';
-import Posts from './page/pagesDashboard/posts'
+import Posts from './page/pagesDashboard/Posts'
 import Settings from './page/pagesDashboard/Settings';
 import PharmaciesPage from './page/PharmaciesPage';
 import DoctorsPage from './page/DoctorsPage';
@@ -94,3 +94,4 @@ function App() {
 }
 
 export default App
+
