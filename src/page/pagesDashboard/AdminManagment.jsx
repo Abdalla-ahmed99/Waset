@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import SideBar from '../../Components/SideBar'
+import SideBar from '../../Components/sideBar'
 import { Nav } from 'react-bootstrap'
 import ButtonGroup from '@mui/material/ButtonGroup';
 import Button from '@mui/material/Button';

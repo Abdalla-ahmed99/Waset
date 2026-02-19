@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import SideBar from './SideBar';
+import SideBar from './sideBar';
 import './Dashboard.css';
 import { motion } from 'framer-motion';
 import { FiSearch, FiBell, FiTrendingUp, FiUsers, FiFileText } from 'react-icons/fi';
 import { collection, getDocs } from 'firebase/firestore';
 import db from '../firebaseconfig';
 import { Link } from 'react-router-dom';
-
+//sddsad
 function Dashboard() {
   const [numOfAdmi, setNumOfAdm] = useState(0);
   const [numOfUsers, setNumOfUsers] = useState(0);
@@ -160,6 +160,5 @@ function Dashboard() {
     </div>
   );
 }
-
 
 export default Dashboard;
