@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import SideBar from './sideBar';
+import SideBar from './SideBar';
 import './Dashboard.css';
 import { motion } from 'framer-motion';
 import { FiSearch, FiBell, FiTrendingUp, FiUsers, FiFileText } from 'react-icons/fi';
@@ -160,5 +160,6 @@ function Dashboard() {
     </div>
   );
 }
+
 
 export default Dashboard;
